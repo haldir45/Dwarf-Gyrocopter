@@ -20,10 +20,10 @@ public class GyrocopterBomb : MonoBehaviour {
 
 
 		//compute the bullet's new position
-		position = new Vector2 (position.x,position.y - speed * Time.deltaTime);
+		//position = new Vector2 (position.x,position.y - speed * Time.deltaTime);
 
 		//update the bullet's position
-		transform.position = position;
+		//transform.position = position;
 
 
 

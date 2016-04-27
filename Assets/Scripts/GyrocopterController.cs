@@ -12,11 +12,19 @@ public class GyrocopterController : MonoBehaviour {
 	private Rigidbody2D rb;
 
 	//movement
+	//*
+	//moveHorizontal moving in the X axis
+	//moveVertical moving in the Y axis
+	//
+	//
+	//
+
 	private float moveHorizontal = 0.0f;
 	private float moveVertical = 0.0f;
 	public float smooth = 2.0F;
 	public float tiltAngleRight = 30.0F;
 	public float tiltAngleLeft = -30.0F;
+	public float tiltAngleHorizontal = -15.0f;
 	public float speed = 5.0f;
 
 	bool hover = false;
@@ -63,9 +71,12 @@ public class GyrocopterController : MonoBehaviour {
 			GameObject bomb = (GameObject)Instantiate (GyrocopterBomb);
 
 			bomb.transform.position = GyrocopterBombPosition.transform.position;
-			Debug.Log ("X:"+bomb.transform.position.x +"Y:"+ bomb.transform.position.y);
+			Debug.Log ("X:"+bomb.transform.position.x +"Y:"+ bomb.transform.position.y );
+
 
 		}
+
+
 		//Input only in update
 		moveHorizontal = Input.GetAxis("Horizontal");
 		moveVertical = Input.GetAxis ("Vertical");
@@ -85,6 +96,8 @@ public class GyrocopterController : MonoBehaviour {
 
 	//physics only in FixedUpdate
 	void FixedUpdate(){
+		
+
 		hover = Physics2D.OverlapCircle (hoverCheck.position, groundRadius, whatIsGround);
 		anim.SetBool ("Ground", hover);
 
@@ -124,33 +137,50 @@ public class GyrocopterController : MonoBehaviour {
 		transform.localScale = theScale;
 	}
 
-	void fixingAngle(){
+	void fixingAngle()
+	{
 		
-		if (facingRight) {
+		if (facingRight) 
+		{
 	
 			//float tiltAroundZ = Input.GetAxis("Horizontal") * tiltAngle;
 			float tiltAroundX = Input.GetAxis ("Vertical") * tiltAngleRight;
 			Quaternion target = Quaternion.Euler (tiltAroundX, 0, tiltAroundX);
 			transform.rotation = Quaternion.Slerp (transform.rotation, target, Time.deltaTime * smooth);
-		} else {
+
+			float tiltHorizontal = Input.GetAxis("Horizontal") * tiltAngleHorizontal;
+			Quaternion target1 = Quaternion.Euler (tiltHorizontal, 0, tiltHorizontal);
+			transform.rotation = Quaternion.Slerp (transform.rotation, target1, Time.deltaTime * smooth);
+		} else 
+		{
 			
 			float tiltAroundX = Input.GetAxis ("Vertical") * tiltAngleLeft;
 			Quaternion target = Quaternion.Euler (tiltAroundX, 0, tiltAroundX);
 			transform.rotation = Quaternion.Slerp (transform.rotation, target, Time.deltaTime * smooth);
+
+			float tiltHorizontal = Input.GetAxis("Horizontal") * tiltAngleHorizontal;
+			Quaternion target1 = Quaternion.Euler (tiltHorizontal, 0, tiltHorizontal);
+			transform.rotation = Quaternion.Slerp (transform.rotation, target1, Time.deltaTime * smooth);
 		}
 
 	}
 		
-	void checkingHover(){
+	void checkingHover()
+	{
 
-		if (hover || flyingHigh) {
+		if (hover || flyingHigh) 
+		{
 			tiltAngleRight = 0.0f;
 			tiltAngleLeft = 0.0f;
+			tiltAngleHorizontal = -15.0f;
+
 			smooth = 10.0f;
 
-		} else {
+		} else
+		{
 			tiltAngleRight = 30.0f;
 			tiltAngleLeft = -30.0f;
+			tiltAngleHorizontal = -15.0f;
 			smooth = 2.0f;
 		}
 

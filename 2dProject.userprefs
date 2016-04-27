@@ -2,7 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GyrocopterController.cs">
     <Files>
-      <File FileName="Assets\Scripts\GyrocopterController.cs" Line="51" Column="3" />
+      <File FileName="Assets\Scripts\GyrocopterController.cs" Line="177" Column="34" />
+      <File FileName="Assets\Scripts\GyrocopterBomb.cs" Line="6" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
