@@ -1,0 +1,1919 @@
+fileFormatVersion: 2
+guid: 7e8d8a30f286b2b4eac9c3ecaf8cec9f
+timeCreated: 1464690373
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GoblinSprite_0
+    21300002: GoblinSprite_1
+    21300004: GoblinSprite_2
+    21300006: GoblinSprite_3
+    21300008: GoblinSprite_4
+    21300010: GoblinSprite_5
+    21300012: GoblinSprite_6
+    21300014: GoblinSprite_7
+    21300016: GoblinSprite_8
+    21300018: GoblinSprite_9
+    21300020: GoblinSprite_10
+    21300022: GoblinSprite_11
+    21300024: GoblinSprite_12
+    21300026: GoblinSprite_13
+    21300028: GoblinSprite_14
+    21300030: GoblinSprite_15
+    21300032: GoblinSprite_16
+    21300034: GoblinSprite_17
+    21300036: GoblinSprite_18
+    21300038: GoblinSprite_19
+    21300040: GoblinSprite_20
+    21300042: GoblinSprite_21
+    21300044: GoblinSprite_22
+    21300046: GoblinSprite_23
+    21300048: GoblinSprite_24
+    21300050: GoblinSprite_25
+    21300052: GoblinSprite_26
+    21300054: GoblinSprite_27
+    21300056: GoblinSprite_28
+    21300058: GoblinSprite_29
+    21300060: GoblinSprite_30
+    21300062: GoblinSprite_31
+    21300064: GoblinSprite_32
+    21300066: GoblinSprite_33
+    21300068: GoblinSprite_34
+    21300070: GoblinSprite_35
+    21300072: GoblinSprite_36
+    21300074: GoblinSprite_37
+    21300076: GoblinSprite_38
+    21300078: GoblinSprite_39
+    21300080: GoblinSprite_40
+    21300082: GoblinSprite_41
+    21300084: GoblinSprite_42
+    21300086: GoblinSprite_43
+    21300088: GoblinSprite_44
+    21300090: GoblinSprite_45
+    21300092: GoblinSprite_46
+    21300094: GoblinSprite_47
+    21300096: GoblinSprite_48
+    21300098: GoblinSprite_49
+    21300100: GoblinSprite_50
+    21300102: GoblinSprite_51
+    21300104: GoblinSprite_52
+    21300106: GoblinSprite_53
+    21300108: GoblinSprite_54
+    21300110: GoblinSprite_55
+    21300112: GoblinSprite_56
+    21300114: GoblinSprite_57
+    21300116: GoblinSprite_58
+    21300118: GoblinSprite_59
+    21300120: GoblinSprite_60
+    21300122: GoblinSprite_61
+    21300124: GoblinSprite_62
+    21300126: GoblinSprite_63
+    21300128: GoblinSprite_64
+    21300130: GoblinSprite_65
+    21300132: GoblinSprite_66
+    21300134: GoblinSprite_67
+    21300136: GoblinSprite_68
+    21300138: GoblinSprite_69
+    21300140: GoblinSprite_70
+    21300142: GoblinSprite_71
+    21300144: GoblinSprite_72
+    21300146: GoblinSprite_73
+    21300148: GoblinSprite_74
+    21300150: GoblinSprite_75
+    21300152: GoblinSprite_76
+    21300154: GoblinSprite_77
+    21300156: GoblinSprite_78
+    21300158: GoblinSprite_79
+    21300160: GoblinSprite_80
+    21300162: GoblinSprite_81
+    21300164: GoblinSprite_82
+    21300166: GoblinSprite_83
+    21300168: GoblinSprite_84
+    21300170: GoblinSprite_85
+    21300172: GoblinSprite_86
+    21300174: GoblinSprite_87
+    21300176: GoblinSprite_88
+    21300178: GoblinSprite_89
+    21300180: GoblinSprite_90
+    21300182: GoblinSprite_91
+    21300184: GoblinSprite_92
+    21300186: GoblinSprite_93
+    21300188: GoblinSprite_94
+    21300190: GoblinSprite_95
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -2
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: GoblinSprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -13, y: 7}
+        - {x: -13, y: -11}
+        - {x: -10, y: -16}
+        - {x: 6, y: -16}
+        - {x: 14, y: -12}
+        - {x: 14, y: 12}
+        - {x: 8, y: 16}
+    - name: GoblinSprite_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 16}
+        - {x: -9, y: 16}
+        - {x: -13, y: 11}
+        - {x: -13, y: -8}
+        - {x: -10, y: -16}
+        - {x: 10, y: -16}
+        - {x: 14, y: -7}
+        - {x: 14, y: 8}
+        - {x: 13, y: 12}
+      - - {x: -16, y: 6}
+        - {x: -15, y: 5}
+        - {x: -12, y: 6}
+        - {x: -12, y: 9}
+        - {x: -15, y: 10}
+        - {x: -16, y: 9}
+    - name: GoblinSprite_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 16}
+        - {x: -9, y: 16}
+        - {x: -13, y: 6}
+        - {x: -13, y: -13}
+        - {x: -6, y: -16}
+        - {x: 10, y: -16}
+        - {x: 14, y: -9}
+        - {x: 14, y: 0}
+        - {x: 13, y: 11}
+    - name: GoblinSprite_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 7}
+        - {x: 5, y: 13}
+        - {x: -5, y: 13}
+        - {x: -15, y: 7}
+        - {x: -15, y: -15}
+        - {x: -13, y: -16}
+        - {x: 11, y: -16}
+        - {x: 16, y: -11}
+        - {x: 16, y: 5}
+    - name: GoblinSprite_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -15, y: 12}
+        - {x: -15, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 12}
+        - {x: 12, y: 14}
+    - name: GoblinSprite_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 13}
+        - {x: -15, y: 11}
+        - {x: -15, y: -8}
+        - {x: -12, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -10}
+        - {x: 16, y: 7}
+        - {x: 10, y: 13}
+    - name: GoblinSprite_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 16}
+        - {x: -2, y: 16}
+        - {x: -8, y: 13}
+        - {x: -15, y: 6}
+        - {x: -15, y: 2}
+        - {x: -13, y: -11}
+        - {x: -10, y: -16}
+        - {x: 12, y: -16}
+        - {x: 15, y: -13}
+        - {x: 16, y: -5}
+        - {x: 16, y: 7}
+    - name: GoblinSprite_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 16}
+        - {x: -15, y: 10}
+        - {x: -15, y: -11}
+        - {x: -9, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 16}
+    - name: GoblinSprite_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 16}
+        - {x: -8, y: 14}
+        - {x: -15, y: 9}
+        - {x: -15, y: -5}
+        - {x: -12, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 11}
+        - {x: 6, y: 16}
+    - name: GoblinSprite_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 13}
+        - {x: -15, y: 6}
+        - {x: -15, y: -15}
+        - {x: -12, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -6}
+        - {x: 16, y: 7}
+        - {x: 8, y: 13}
+    - name: GoblinSprite_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -15, y: 10}
+        - {x: -15, y: -7}
+        - {x: -14, y: -10}
+        - {x: -11, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 11}
+        - {x: 13, y: 14}
+    - name: GoblinSprite_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 13}
+        - {x: -15, y: 10}
+        - {x: -15, y: -10}
+        - {x: -13, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 7}
+        - {x: 8, y: 13}
+    - name: GoblinSprite_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -12, y: -11}
+        - {x: -10, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -10}
+        - {x: 11, y: 16}
+    - name: GoblinSprite_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -13, y: -7}
+        - {x: -5, y: -16}
+        - {x: 7, y: -16}
+        - {x: 11, y: -4}
+        - {x: 11, y: 16}
+    - name: GoblinSprite_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -13, y: 9}
+        - {x: -13, y: -9}
+        - {x: -11, y: -12}
+        - {x: -9, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -8}
+        - {x: 11, y: 13}
+        - {x: 7, y: 16}
+    - name: GoblinSprite_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 13}
+        - {x: -13, y: 4}
+        - {x: -13, y: -6}
+        - {x: -9, y: -15}
+        - {x: -8, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -6}
+        - {x: 11, y: 7}
+        - {x: 6, y: 13}
+    - name: GoblinSprite_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 14}
+        - {x: -13, y: 5}
+        - {x: -13, y: -4}
+        - {x: -8, y: -16}
+        - {x: 7, y: -16}
+        - {x: 11, y: -8}
+        - {x: 11, y: 8}
+        - {x: 6, y: 14}
+    - name: GoblinSprite_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 13}
+        - {x: -13, y: 9}
+        - {x: -13, y: -5}
+        - {x: -9, y: -16}
+        - {x: 11, y: -16}
+        - {x: 11, y: 12}
+        - {x: 10, y: 13}
+    - name: GoblinSprite_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 16}
+        - {x: -11, y: 8}
+        - {x: -13, y: 4}
+        - {x: -13, y: -4}
+        - {x: -9, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -10}
+        - {x: 11, y: 11}
+        - {x: 3, y: 16}
+    - name: GoblinSprite_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 16}
+        - {x: -13, y: 11}
+        - {x: -13, y: -3}
+        - {x: -9, y: -16}
+        - {x: 7, y: -16}
+        - {x: 11, y: -14}
+        - {x: 11, y: 12}
+        - {x: 6, y: 16}
+    - name: GoblinSprite_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 16}
+        - {x: -3, y: 16}
+        - {x: -12, y: 9}
+        - {x: -13, y: 2}
+        - {x: -13, y: -5}
+        - {x: -10, y: -16}
+        - {x: 7, y: -16}
+        - {x: 8, y: -15}
+        - {x: 11, y: -11}
+        - {x: 11, y: 10}
+    - name: GoblinSprite_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 13}
+        - {x: -13, y: 5}
+        - {x: -13, y: -9}
+        - {x: -8, y: -16}
+        - {x: 10, y: -16}
+        - {x: 11, y: -14}
+        - {x: 11, y: 9}
+        - {x: 9, y: 13}
+    - name: GoblinSprite_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -13, y: 6}
+        - {x: -13, y: -10}
+        - {x: -9, y: -16}
+        - {x: 9, y: -16}
+        - {x: 11, y: -12}
+        - {x: 11, y: 9}
+        - {x: 8, y: 14}
+    - name: GoblinSprite_23
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 13}
+        - {x: -4, y: 13}
+        - {x: -13, y: 9}
+        - {x: -13, y: -5}
+        - {x: -10, y: -16}
+        - {x: 7, y: -16}
+        - {x: 11, y: -12}
+        - {x: 11, y: 8}
+    - name: GoblinSprite_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 13}
+        - {x: 8, y: 16}
+        - {x: -10, y: 16}
+        - {x: -11, y: 12}
+        - {x: -11, y: -10}
+        - {x: -10, y: -14}
+        - {x: -8, y: -16}
+        - {x: 6, y: -16}
+        - {x: 7, y: -15}
+        - {x: 12, y: -9}
+    - name: GoblinSprite_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -11, y: 13}
+        - {x: -11, y: -7}
+        - {x: -5, y: -16}
+        - {x: 6, y: -16}
+        - {x: 13, y: -12}
+        - {x: 13, y: 11}
+        - {x: 11, y: 16}
+    - name: GoblinSprite_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -11, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 15}
+        - {x: 12, y: 16}
+    - name: GoblinSprite_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 13}
+        - {x: -11, y: 6}
+        - {x: -11, y: 0}
+        - {x: -9, y: -16}
+        - {x: 11, y: -16}
+        - {x: 13, y: -12}
+        - {x: 13, y: 6}
+        - {x: 8, y: 13}
+    - name: GoblinSprite_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 14}
+        - {x: -11, y: -15}
+        - {x: -7, y: -16}
+        - {x: 7, y: -16}
+        - {x: 13, y: -9}
+        - {x: 13, y: 7}
+        - {x: 9, y: 14}
+    - name: GoblinSprite_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 13}
+        - {x: -11, y: 6}
+        - {x: -11, y: -12}
+        - {x: -10, y: -16}
+        - {x: 11, y: -16}
+        - {x: 13, y: -13}
+        - {x: 13, y: 6}
+        - {x: 8, y: 13}
+    - name: GoblinSprite_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 16}
+        - {x: -5, y: 16}
+        - {x: -11, y: 10}
+        - {x: -11, y: 0}
+        - {x: -9, y: -16}
+        - {x: 8, y: -16}
+        - {x: 9, y: -15}
+        - {x: 13, y: -3}
+        - {x: 13, y: 10}
+    - name: GoblinSprite_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 16}
+        - {x: -7, y: 16}
+        - {x: -11, y: 12}
+        - {x: -11, y: -11}
+        - {x: -5, y: -16}
+        - {x: 7, y: -16}
+        - {x: 11, y: -7}
+        - {x: 13, y: -2}
+        - {x: 13, y: 12}
+    - name: GoblinSprite_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -11, y: 12}
+        - {x: -11, y: -16}
+        - {x: 11, y: -16}
+        - {x: 13, y: -6}
+        - {x: 13, y: 13}
+        - {x: 6, y: 16}
+    - name: GoblinSprite_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 13}
+        - {x: -6, y: 12}
+        - {x: -11, y: 7}
+        - {x: -11, y: -9}
+        - {x: -10, y: -16}
+        - {x: 9, y: -16}
+        - {x: 13, y: -6}
+        - {x: 13, y: 5}
+        - {x: 6, y: 13}
+    - name: GoblinSprite_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 14}
+        - {x: -11, y: -15}
+        - {x: -7, y: -16}
+        - {x: 7, y: -16}
+        - {x: 13, y: -9}
+        - {x: 13, y: 7}
+        - {x: 9, y: 14}
+    - name: GoblinSprite_35
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 13}
+        - {x: -11, y: 6}
+        - {x: -11, y: -12}
+        - {x: -10, y: -16}
+        - {x: 11, y: -16}
+        - {x: 13, y: -13}
+        - {x: 13, y: 6}
+        - {x: 8, y: 13}
+    - name: GoblinSprite_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -13, y: 15}
+        - {x: -13, y: -15}
+        - {x: -11, y: -16}
+        - {x: 12, y: -16}
+        - {x: 14, y: -11}
+        - {x: 14, y: 5}
+        - {x: 9, y: 16}
+    - name: GoblinSprite_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -11, y: 15}
+        - {x: -13, y: 10}
+        - {x: -13, y: -10}
+        - {x: -10, y: -16}
+        - {x: 12, y: -16}
+        - {x: 14, y: -10}
+        - {x: 14, y: 9}
+        - {x: 11, y: 16}
+    - name: GoblinSprite_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -12, y: 10}
+        - {x: -13, y: -2}
+        - {x: -13, y: -11}
+        - {x: -9, y: -16}
+        - {x: 9, y: -16}
+        - {x: 14, y: -13}
+        - {x: 14, y: 5}
+        - {x: 12, y: 9}
+        - {x: 7, y: 16}
+    - name: GoblinSprite_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 13}
+        - {x: -8, y: 13}
+        - {x: -15, y: 7}
+        - {x: -15, y: -13}
+        - {x: -8, y: -16}
+        - {x: 12, y: -16}
+        - {x: 14, y: -14}
+        - {x: 16, y: 0}
+        - {x: 16, y: 12}
+    - name: GoblinSprite_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -15, y: 13}
+        - {x: -15, y: -13}
+        - {x: -13, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 11}
+        - {x: 10, y: 14}
+    - name: GoblinSprite_41
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 13}
+        - {x: -15, y: 6}
+        - {x: -15, y: 2}
+        - {x: -11, y: -13}
+        - {x: -7, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -7}
+        - {x: 16, y: 11}
+        - {x: 10, y: 13}
+    - name: GoblinSprite_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 16}
+        - {x: -7, y: 14}
+        - {x: -15, y: 5}
+        - {x: -13, y: 0}
+        - {x: -12, y: -10}
+        - {x: -9, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 6}
+        - {x: 4, y: 16}
+    - name: GoblinSprite_43
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 16}
+        - {x: -15, y: 11}
+        - {x: -15, y: -9}
+        - {x: -14, y: -11}
+        - {x: -10, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -14}
+        - {x: 16, y: 10}
+        - {x: 9, y: 16}
+    - name: GoblinSprite_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -15, y: 9}
+        - {x: -15, y: -6}
+        - {x: -13, y: -12}
+        - {x: -11, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -11}
+        - {x: 16, y: 10}
+        - {x: 9, y: 16}
+    - name: GoblinSprite_45
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 13}
+        - {x: -11, y: 13}
+        - {x: -15, y: 9}
+        - {x: -15, y: -14}
+        - {x: -11, y: -16}
+        - {x: 10, y: -16}
+        - {x: 15, y: -11}
+        - {x: 16, y: -7}
+        - {x: 16, y: 8}
+    - name: GoblinSprite_46
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 14}
+        - {x: -15, y: 8}
+        - {x: -15, y: -5}
+        - {x: -14, y: -11}
+        - {x: -10, y: -16}
+        - {x: 13, y: -16}
+        - {x: 16, y: -14}
+        - {x: 16, y: 9}
+        - {x: 10, y: 14}
+    - name: GoblinSprite_47
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 13}
+        - {x: -9, y: 13}
+        - {x: -15, y: 6}
+        - {x: -15, y: 4}
+        - {x: -12, y: -11}
+        - {x: -10, y: -15}
+        - {x: -10, y: -16}
+        - {x: 9, y: -16}
+        - {x: 16, y: -12}
+        - {x: 16, y: 6}
+    - name: GoblinSprite_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -15, y: 7}
+        - {x: -15, y: -16}
+        - {x: 15, y: -16}
+        - {x: 16, y: -13}
+        - {x: 16, y: 9}
+        - {x: 7, y: 14}
+    - name: GoblinSprite_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 15}
+        - {x: -15, y: 10}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 10}
+        - {x: 10, y: 15}
+    - name: GoblinSprite_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 14}
+        - {x: -3, y: 14}
+        - {x: -15, y: 7}
+        - {x: -15, y: -10}
+        - {x: -14, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 6}
+        - {x: 14, y: 7}
+    - name: GoblinSprite_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: GoblinSprite_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: GoblinSprite_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: GoblinSprite_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -13, y: 14}
+        - {x: -16, y: -1}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: GoblinSprite_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 3}
+        - {x: -16, y: -9}
+        - {x: -14, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 8}
+        - {x: 15, y: 14}
+        - {x: 14, y: 16}
+        - {x: -15, y: 16}
+    - name: GoblinSprite_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: 15, y: 16}
+    - name: GoblinSprite_57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -16, y: 4}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: GoblinSprite_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 3}
+        - {x: -16, y: -9}
+        - {x: -14, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 8}
+        - {x: 15, y: 14}
+        - {x: 14, y: 16}
+        - {x: -15, y: 16}
+    - name: GoblinSprite_59
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: 15, y: 16}
+    - name: GoblinSprite_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 14}
+        - {x: -11, y: 14}
+        - {x: -13, y: 12}
+        - {x: -13, y: -10}
+        - {x: -12, y: -16}
+        - {x: 12, y: -16}
+        - {x: 12, y: 3}
+        - {x: 11, y: 12}
+    - name: GoblinSprite_61
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 15}
+        - {x: -13, y: 14}
+        - {x: -13, y: -10}
+        - {x: -12, y: -16}
+        - {x: 12, y: -16}
+        - {x: 12, y: 8}
+        - {x: 8, y: 15}
+    - name: GoblinSprite_62
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 14}
+        - {x: -13, y: 12}
+        - {x: -13, y: -8}
+        - {x: -12, y: -13}
+        - {x: -9, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 7}
+        - {x: 8, y: 14}
+    - name: GoblinSprite_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9, y: 16}
+        - {x: -7, y: 16}
+        - {x: -13, y: 12}
+        - {x: -13, y: -3}
+        - {x: -12, y: -16}
+        - {x: 14, y: -16}
+        - {x: 15, y: -13}
+        - {x: 15, y: 5}
+        - {x: 14, y: 9}
+    - name: GoblinSprite_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -13, y: 15}
+        - {x: -13, y: -7}
+        - {x: -8, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: GoblinSprite_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -13, y: 11}
+        - {x: -13, y: -1}
+        - {x: -12, y: -12}
+        - {x: -11, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 12}
+        - {x: 9, y: 16}
+    - name: GoblinSprite_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 16}
+        - {x: -12, y: 16}
+        - {x: -12, y: -6}
+        - {x: -10, y: -16}
+        - {x: 11, y: -16}
+        - {x: 13, y: -12}
+        - {x: 14, y: -3}
+        - {x: 14, y: 13}
+    - name: GoblinSprite_67
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -12, y: 15}
+        - {x: -12, y: -7}
+        - {x: -7, y: -16}
+        - {x: 9, y: -16}
+        - {x: 14, y: -11}
+        - {x: 14, y: 13}
+        - {x: 11, y: 16}
+    - name: GoblinSprite_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -12, y: 12}
+        - {x: -12, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 11}
+        - {x: 8, y: 16}
+    - name: GoblinSprite_69
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 16}
+        - {x: -12, y: 16}
+        - {x: -12, y: -6}
+        - {x: -10, y: -16}
+        - {x: 11, y: -16}
+        - {x: 13, y: -12}
+        - {x: 14, y: -3}
+        - {x: 14, y: 13}
+    - name: GoblinSprite_70
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -12, y: 15}
+        - {x: -12, y: -7}
+        - {x: -7, y: -16}
+        - {x: 9, y: -16}
+        - {x: 14, y: -11}
+        - {x: 14, y: 13}
+        - {x: 11, y: 16}
+    - name: GoblinSprite_71
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -12, y: 12}
+        - {x: -12, y: -16}
+        - {x: 15, y: -16}
+        - {x: 15, y: 11}
+        - {x: 8, y: 16}
+    - name: GoblinSprite_72
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 32
+        width: 21
+        height: 28
+      alignment: 9
+      pivot: {x: 16.367378, y: -5.633807}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: GoblinSprite_73
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 15}
+        - {x: -10, y: 11}
+        - {x: -12, y: 1}
+        - {x: -12, y: -16}
+        - {x: 9, y: -16}
+        - {x: 13, y: -2}
+        - {x: 13, y: 14}
+        - {x: 9, y: 15}
+    - name: GoblinSprite_74
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 14}
+        - {x: -13, y: 10}
+        - {x: -13, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 13}
+        - {x: 9, y: 14}
+    - name: GoblinSprite_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: 16}
+        - {x: -12, y: 16}
+        - {x: -15, y: 6}
+        - {x: -15, y: -16}
+        - {x: 11, y: -16}
+        - {x: 13, y: -6}
+        - {x: 13, y: 15}
+    - name: GoblinSprite_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 16}
+        - {x: -15, y: -16}
+        - {x: 9, y: -16}
+        - {x: 13, y: -6}
+        - {x: 13, y: 14}
+        - {x: 11, y: 16}
+    - name: GoblinSprite_77
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -16, y: 4}
+        - {x: -16, y: -15}
+        - {x: -15, y: -16}
+        - {x: 13, y: -16}
+        - {x: 13, y: 13}
+        - {x: 12, y: 16}
+    - name: GoblinSprite_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -3}
+        - {x: -10, y: -16}
+        - {x: 13, y: -16}
+        - {x: 14, y: -13}
+        - {x: 14, y: 16}
+    - name: GoblinSprite_79
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -12, y: -6}
+        - {x: -11, y: -16}
+        - {x: 9, y: -16}
+        - {x: 14, y: -14}
+        - {x: 14, y: 16}
+    - name: GoblinSprite_80
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -13, y: 12}
+        - {x: -13, y: -16}
+        - {x: 11, y: -16}
+        - {x: 15, y: -13}
+        - {x: 15, y: 16}
+    - name: GoblinSprite_81
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 16}
+        - {x: -12, y: 13}
+        - {x: -12, y: -3}
+        - {x: -10, y: -16}
+        - {x: 13, y: -16}
+        - {x: 14, y: -13}
+        - {x: 14, y: 16}
+    - name: GoblinSprite_82
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -12, y: -6}
+        - {x: -11, y: -16}
+        - {x: 9, y: -16}
+        - {x: 14, y: -14}
+        - {x: 14, y: 16}
+    - name: GoblinSprite_83
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -13, y: 12}
+        - {x: -13, y: -16}
+        - {x: 11, y: -16}
+        - {x: 15, y: -13}
+        - {x: 15, y: 16}
+    - name: GoblinSprite_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 14}
+        - {x: -15, y: 6}
+        - {x: -15, y: -4}
+        - {x: -14, y: -14}
+        - {x: -12, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -9}
+        - {x: 16, y: 9}
+        - {x: 5, y: 14}
+    - name: GoblinSprite_85
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 15}
+        - {x: -15, y: 7}
+        - {x: -15, y: -4}
+        - {x: -14, y: -14}
+        - {x: -13, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 11}
+        - {x: 6, y: 15}
+    - name: GoblinSprite_86
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 14}
+        - {x: -15, y: 10}
+        - {x: -15, y: -3}
+        - {x: -13, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 7}
+        - {x: 8, y: 14}
+    - name: GoblinSprite_87
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: GoblinSprite_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: GoblinSprite_89
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: GoblinSprite_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: 15, y: 16}
+    - name: GoblinSprite_91
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -14, y: 14}
+        - {x: -15, y: -2}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: GoblinSprite_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -15, y: 15}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: 15, y: 16}
+    - name: GoblinSprite_93
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -16, y: 15}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: 15, y: 16}
+    - name: GoblinSprite_94
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -14, y: 14}
+        - {x: -15, y: -2}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: GoblinSprite_95
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 16}
+        - {x: -15, y: 15}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: 15, y: 16}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -18,3 +18,4 @@ C:\Users\win10\Documents\2dProject\Temp\bin\Debug\UnityEngine.UI.xml
 C:\Users\win10\Documents\2dProject\Temp\bin\Debug\UnityEngine.Networking.xml
 C:\Users\win10\Documents\2dProject\obj\Debug\Assembly-CSharp.dll
 C:\Users\win10\Documents\2dProject\obj\Debug\Assembly-CSharp.pdb
+C:\Users\win10\Documents\2dProject\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache

@@ -3,7 +3,7 @@ using System.Collections;
 
 public class GyrocopterBomb : MonoBehaviour {
 
-	float speed;
+	public float speed;
 	public GameObject Explosion;// this our prefab explosion
 
 	// Use this for initialization

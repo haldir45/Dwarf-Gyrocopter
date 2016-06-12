@@ -3,9 +3,18 @@ using System.Collections;
 
 public class GyrocopterController : MonoBehaviour {
 
+
+	public GameObject GameManagerObject;
 	//Bombs
 	public GameObject GyrocopterBomb; //this is gyrocopter's bomb prefab
 	public GameObject GyrocopterBombPosition;
+
+
+	//Projectile
+	public GameObject Projectile;
+
+	//Explosion
+	public GameObject Explosion;
 
 
 	//Physics
@@ -28,7 +37,7 @@ public class GyrocopterController : MonoBehaviour {
 	public float speed = 5.0f;
 
 	bool hover = false;
-	bool flyingHigh = false;
+	//bool flyingHigh = false;
 
 	public Transform hoverCheck;
 	public Transform highAltitudeCheck;
@@ -47,8 +56,17 @@ public class GyrocopterController : MonoBehaviour {
 	//animation
 	Animator anim;
 
+	public int playerMaxHitPoints =3;
+	 int playerHitPoints;
 
+	public void Init()
+	{
 
+		playerHitPoints = playerMaxHitPoints;
+
+		gameObject.SetActive (true);
+	
+	}
 	// Use this for initialization
 	void Start () {
 	  //reference to Rigibody2d
@@ -65,33 +83,37 @@ public class GyrocopterController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		
+			//fire bombs when the spacebar is pressed
+			if (Input.GetKeyDown ("space")) {
+				GameObject bomb = (GameObject)Instantiate (GyrocopterBomb);
 
-		//fire bombs when the spacebar is pressed
-		if (Input.GetKeyDown ("space")) {
-			GameObject bomb = (GameObject)Instantiate (GyrocopterBomb);
-
-			bomb.transform.position = GyrocopterBombPosition.transform.position;
-			Debug.Log ("X:"+bomb.transform.position.x +"Y:"+ bomb.transform.position.y );
-
-
-		}
+				bomb.transform.position = GyrocopterBombPosition.transform.position;
+				Debug.Log ("X:"+bomb.transform.position.x +"Y:"+ bomb.transform.position.y );
 
 
-		//Input only in update
-		moveHorizontal = Input.GetAxis("Horizontal");
-		moveVertical = Input.GetAxis ("Vertical");
+			}
 
-		    checkingHover ();
+
+			//Input only in update
+			moveHorizontal = Input.GetAxis("Horizontal");
+			moveVertical = Input.GetAxis ("Vertical");
+
+			checkingHover ();
 			fixingAngle ();
-		/*
+			/*
 		//check for jump
-		if (Input.GetKeyDown (KeyCode.UpArrow)) {
-			//Invoke("PlayJumpSound", 0.4f);
-			rb.AddForce (new Vector2 (0, 2.5f), ForceMode2D.Impulse);
-		} 
-		*/
+			if (Input.GetKeyDown (KeyCode.UpArrow)) {
+				//Invoke("PlayJumpSound", 0.4f);
+				rb.AddForce (new Vector2 (0, 2.5f), ForceMode2D.Impulse);
+			} 
+			*/
 
+			if (Input.GetKey (KeyCode.Escape))
+				Application.Quit();
+			
 
+	
 	}
 
 	//physics only in FixedUpdate
@@ -101,8 +123,8 @@ public class GyrocopterController : MonoBehaviour {
 		hover = Physics2D.OverlapCircle (hoverCheck.position, groundRadius, whatIsGround);
 		anim.SetBool ("Ground", hover);
 
-		flyingHigh = Physics2D.OverlapCircle (highAltitudeCheck.position, groundRadius, whatIsHighAltitude);
-		anim.SetBool ("flyingHigh", flyingHigh);
+		//flyingHigh = Physics2D.OverlapCircle (highAltitudeCheck.position, groundRadius, whatIsHighAltitude);
+		//anim.SetBool ("flyingHigh", flyingHigh);
 
 		rb.velocity = new Vector2 (moveHorizontal * speed, rb.velocity.y);
 
@@ -168,7 +190,7 @@ public class GyrocopterController : MonoBehaviour {
 	void checkingHover()
 	{
 
-		if (hover || flyingHigh) 
+		if (hover) 
 		{
 			tiltAngleRight = 0.0f;
 			tiltAngleLeft = 0.0f;
@@ -186,6 +208,37 @@ public class GyrocopterController : MonoBehaviour {
 
 	}
 
+	void OnTriggerEnter2D(Collider2D col){
+
+
+		//Detect collision of the gyrocopter bomb with an object
+		if (col.tag == "Projectile") 
+		{
+
+			PlayExplosion ();
+			playerHitPoints--;
+			//Debug.Log ("hitpoints:" + playerHitPoints);
+			if (playerHitPoints == 0) 
+			{
+				//Change game manager state to game over state
+				GameManagerObject.GetComponent<GameManager>().setGameManagerState(GameManager.GameManagerState.GameOver);
+
+				//hide the player's ship
+				gameObject.SetActive(false);
+			}
+
+		}
+
+	}
+
+	void PlayExplosion()
+	{
+		GameObject explosion = (GameObject)Instantiate (Explosion);
+
+		//set the position of the explosion
+		explosion.transform.position = transform.position;
+		//Application.Quit();
+	}
 
 
 

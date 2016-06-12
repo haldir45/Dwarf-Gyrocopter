@@ -7,12 +7,13 @@ public class CameraFollow : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        //find the player object
-        gyrocopter = GameObject.FindWithTag("Gyrocopter");
+        
     }
 
     // Update is called once per frame
     void Update () {
+		//find the player object
+		gyrocopter = GameObject.FindWithTag("Gyrocopter");
         //follow the player
         if (gyrocopter != null)
         {
