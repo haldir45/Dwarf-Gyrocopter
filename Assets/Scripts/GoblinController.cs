@@ -15,12 +15,13 @@ public class GoblinController : MonoBehaviour {
 
 
 
+
 	//movement
 	public float speed ;
 	public float moveVertical;
 
 	//facing
-	private bool facingRight = true;
+	private bool facingRight = false;
 
 
 	//animation
@@ -29,10 +30,25 @@ public class GoblinController : MonoBehaviour {
 	//Position Vectors,distance between gyrocopter and enemy
 	Vector2 gyrocopterPosition;
 	Vector2 goblinPosition;
-	float dist =0.0f;
+	//float dist =0.0f;
+	public int randDistLimits;
 
 
 	public float timeLeft = 1.5f;
+
+	public int goblinMaxHitPoints = 3;
+	int goblinHitPoints;
+
+	public void Init()
+	{
+		
+		//
+	//	goblinHitPoints = goblinMaxHitPoints;
+
+		//this.gameObject.SetActive (true);
+		//Debug.Log ("GobblinHitPoints:"+goblinHitPoints);
+
+	}
 	// Use this for initialization
 	void Start () {
 		//reference to Rigibody2d
@@ -41,9 +57,8 @@ public class GoblinController : MonoBehaviour {
 		//reference to animator
 		anim = GetComponent<Animator> ();
 
+	 randDistLimits = Random.Range (1, 12);
 	
-
-		
 
 	}
 	
@@ -51,8 +66,8 @@ public class GoblinController : MonoBehaviour {
 	void Update () {
 		 gyrocopterPosition = Gyrocopter.transform.position;
 		 goblinPosition = this.transform.position;
-		 dist = Vector2.Distance(gyrocopterPosition, goblinPosition);
-
+		// dist = Vector2.Distance(gyrocopterPosition, goblinPosition);
+	
 
 		//Debug.Log ("Dist" + dist +"Gyrocopter x:"+(int)gyrocopterPosition.x+"Goblin"+(int)goblinPosition.x+"enabled"+anim.GetBool("move"));
 
@@ -60,23 +75,30 @@ public class GoblinController : MonoBehaviour {
 
 	void FixedUpdate()
 	{
-		
-		if ((int)gyrocopterPosition.x == (int)goblinPosition.x  || dist > 5.0 ) {
+
+		float x = (gyrocopterPosition - goblinPosition).x;
+		if (x < 0 && (facingRight)) {
+			Flip ();
+		} else if (x > 0 && (!facingRight)) {
+			Flip ();
+		}
+		/*
+		if ((int)gyrocopterPosition.x == (int)goblinPosition.x  || dist < randDistLimits ) {
 			anim.SetFloat ("moveSpeed", 0.09f);
 
 		
 		} else if (gyrocopterPosition.x > goblinPosition.x) {
 			//Flip ();
-			goblinPosition = new Vector2 (goblinPosition.x + speed * Time.deltaTime, goblinPosition.y);
-			this.transform.position = goblinPosition;
+			//goblinPosition = new Vector2 (goblinPosition.x + speed * Time.deltaTime, goblinPosition.y);
+			//this.transform.position = goblinPosition;
 			moveVertical = 0.101f;
-			anim.SetFloat ("moveSpeed", 0.101f);
+			//anim.SetFloat ("moveSpeed", 0.101f);
 		} else {
 			//Flip ();
-			goblinPosition = new Vector2 (goblinPosition.x - speed * Time.deltaTime, goblinPosition.y);
-			this.transform.position = goblinPosition;
+		//	goblinPosition = new Vector2 (goblinPosition.x - speed * Time.deltaTime, goblinPosition.y);
+			//this.transform.position = goblinPosition;
 			moveVertical = -0.101f;
-			anim.SetFloat("moveSpeed",Mathf.Abs(-0.101f));
+			//anim.SetFloat("moveSpeed",Mathf.Abs(-0.101f));
 		}
 
 		if ((moveVertical == 0.101f) && (!facingRight)) {
@@ -85,46 +107,12 @@ public class GoblinController : MonoBehaviour {
 		} else if ((moveVertical == -0.101f) && (facingRight)) {
 			Flip ();
 		}
+		*/
 
-
-			//Calls the throwProjectile after 2 seconds
-			timeLeft -= Time.deltaTime;
-		if (timeLeft < 0 & Gyrocopter.activeSelf) {
-			  
-				throwProjectile ();
-				timeLeft = 1.5f;
-			}
-
-		
-
-
-
-
+	
+	
 	}
 
-	void throwProjectile()
-	{
-		//instantiate an enemy projectile
-		GameObject spear = (GameObject)Instantiate (Projectile);
-
-		//set the projectile's initial position
-		spear.transform.position = transform.position;
-
-		//compute the projectile's direction towards the Gyrocopter
-		Vector2 direction = Gyrocopter.transform.position - spear.transform.position;
-
-		//set the projectile's direction
-		spear.GetComponent<Projectile>().SetDirection (direction);
-
-		Rigidbody2D rb = spear.GetComponent<Rigidbody2D>();
-
-		//add force to the projectile
-		rb.AddForce (direction, ForceMode2D.Impulse);
-
-		// destroy the projectile after 2 secs
-		Destroy (spear, 2);
-
-	}
 
 	void Flip(){
 		facingRight = !facingRight;
@@ -134,15 +122,23 @@ public class GoblinController : MonoBehaviour {
 
 	}
 
+
 	void OnTriggerEnter2D(Collider2D col){
+		
 
 		//Detect collision of the gyrocopter bomb with an object
-		if (col.tag == "GyrocopterBomb") {
+		if (col.tag == "GyrocopterProjectile" ) {
+			
+			goblinMaxHitPoints--;
+			//Debug.Log ("GoblinHitPoints:" + goblinHitPoints);
 
-			Destroy (gameObject);
+			if (goblinMaxHitPoints==0)
+				Destroy(gameObject);
+	
+		
 
 		}
 
 	}
-
 }
+

@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour {
 	//Reference to our game objects
 	public GameObject playButton;
 	public GameObject Gyrocopter;
+	public GameObject Goblin;
 	public GameObject gameOverImage;
 	public enum GameManagerState
 	{
@@ -35,10 +36,11 @@ public class GameManager : MonoBehaviour {
 			break;
 		case GameManagerState.Gameplay:
 			//hide play button on game play state
-			playButton.SetActive(false);
+			playButton.SetActive (false);
 
 			//set the player visible(active) and init the player hit points
-			Gyrocopter.GetComponent<GyrocopterController>().Init();
+			Gyrocopter.GetComponent<GyrocopterController> ().Init ();
+			Goblin.GetComponent<GoblinController>().Init();
 
 			break;
 		case GameManagerState.GameOver:

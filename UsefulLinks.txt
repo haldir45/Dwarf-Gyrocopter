@@ -1,0 +1,1 @@
+about collision for the goblin: http://answers.unity3d.com/questions/410711/trigger-in-child-object-calls-ontriggerenter-in-pa.html 

@@ -8,6 +8,8 @@ public class GyrocopterController : MonoBehaviour {
 	//Bombs
 	public GameObject GyrocopterBomb; //this is gyrocopter's bomb prefab
 	public GameObject GyrocopterBombPosition;
+ 
+
 
 
 	//Projectile
@@ -28,12 +30,12 @@ public class GyrocopterController : MonoBehaviour {
 	//
 	//
 
-	private float moveHorizontal = 0.0f;
-	private float moveVertical = 0.0f;
-	public float smooth = 2.0F;
-	public float tiltAngleRight = 30.0F;
-	public float tiltAngleLeft = -30.0F;
-	public float tiltAngleHorizontal = -15.0f;
+	float moveHorizontal = 0.0f;
+	float moveVertical = 0.0f;
+    float smooth = 2.0F;
+	float tiltAngleRight = 30.0F;
+    float tiltAngleLeft = -30.0F;
+	float tiltAngleHorizontal = -15.0f;
 	public float speed = 5.0f;
 
 	bool hover = false;
@@ -94,9 +96,11 @@ public class GyrocopterController : MonoBehaviour {
 
 			}
 
+	
+
 
 			//Input only in update
-			moveHorizontal = Input.GetAxis("Horizontal");
+			//moveHorizontal = Input.GetAxis("Horizontal");
 			moveVertical = Input.GetAxis ("Vertical");
 
 			checkingHover ();
@@ -126,7 +130,7 @@ public class GyrocopterController : MonoBehaviour {
 		//flyingHigh = Physics2D.OverlapCircle (highAltitudeCheck.position, groundRadius, whatIsHighAltitude);
 		//anim.SetBool ("flyingHigh", flyingHigh);
 
-		rb.velocity = new Vector2 (moveHorizontal * speed, rb.velocity.y);
+		rb.velocity = new Vector2 (1 * speed, rb.velocity.y);
 
 		rb.velocity = new Vector2 (rb.velocity.x, moveVertical * speed);
 
@@ -140,6 +144,7 @@ public class GyrocopterController : MonoBehaviour {
 	
 
 		if ((moveHorizontal > 0) && (!facingRight)) {
+			
 			Flip ();
 		
 		} else if ((moveHorizontal < 0) && (facingRight)) {
@@ -151,7 +156,8 @@ public class GyrocopterController : MonoBehaviour {
 	}  
 	void Flip(){
 		facingRight = !facingRight;
-
+		anim.SetBool("facing",facingRight);
+	
 		Vector3 theScale = transform.localScale;
 
 		theScale.x *= -1;
@@ -238,6 +244,11 @@ public class GyrocopterController : MonoBehaviour {
 		//set the position of the explosion
 		explosion.transform.position = transform.position;
 		//Application.Quit();
+	}
+
+	public bool getFacingRight()
+	{
+		return facingRight;
 	}
 
 
