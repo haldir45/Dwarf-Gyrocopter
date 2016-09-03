@@ -128,7 +128,7 @@ public class GoblinController : MonoBehaviour {
 
 		//Detect collision of the gyrocopter bomb with an object
 		if (col.tag == "GyrocopterProjectile" ) {
-			
+			Debug.Log ("Hello");
 			goblinMaxHitPoints--;
 			//Debug.Log ("GoblinHitPoints:" + goblinHitPoints);
 
@@ -139,6 +139,14 @@ public class GoblinController : MonoBehaviour {
 
 		}
 
+	}
+
+	//Ignore the collision if child collide with parent
+	void OnTriggerEnter(Collider other)
+	{
+		if (other.tag == "EnemyProjectileRange")
+			return; // do nothing
+		
 	}
 }
 

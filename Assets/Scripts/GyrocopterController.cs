@@ -42,7 +42,7 @@ public class GyrocopterController : MonoBehaviour {
 	//bool flyingHigh = false;
 
 	public Transform hoverCheck;
-	public Transform highAltitudeCheck;
+	//public Transform highAltitudeCheck;
 	float groundRadius = 0.2f;
 	public LayerMask whatIsGround;
 	public LayerMask whatIsHighAltitude;
@@ -95,16 +95,14 @@ public class GyrocopterController : MonoBehaviour {
 
 
 			}
-
-	
-
-
+			
 			//Input only in update
 			//moveHorizontal = Input.GetAxis("Horizontal");
 			moveVertical = Input.GetAxis ("Vertical");
 
 			checkingHover ();
 			fixingAngle ();
+
 			/*
 		//check for jump
 			if (Input.GetKeyDown (KeyCode.UpArrow)) {
@@ -115,8 +113,6 @@ public class GyrocopterController : MonoBehaviour {
 
 			if (Input.GetKey (KeyCode.Escape))
 				Application.Quit();
-			
-
 	
 	}
 
@@ -124,13 +120,14 @@ public class GyrocopterController : MonoBehaviour {
 	void FixedUpdate(){
 		
 
-		hover = Physics2D.OverlapCircle (hoverCheck.position, groundRadius, whatIsGround);
+		hover = Physics2D.OverlapCircle(hoverCheck.position, groundRadius, whatIsGround);
+
 		anim.SetBool ("Ground", hover);
 
 		//flyingHigh = Physics2D.OverlapCircle (highAltitudeCheck.position, groundRadius, whatIsHighAltitude);
 		//anim.SetBool ("flyingHigh", flyingHigh);
 
-		rb.velocity = new Vector2 (1 * speed, rb.velocity.y);
+	//	rb.velocity = new Vector2 (1 * speed, rb.velocity.y);
 
 		rb.velocity = new Vector2 (rb.velocity.x, moveVertical * speed);
 
@@ -198,6 +195,7 @@ public class GyrocopterController : MonoBehaviour {
 
 		if (hover) 
 		{
+
 			tiltAngleRight = 0.0f;
 			tiltAngleLeft = 0.0f;
 			tiltAngleHorizontal = -15.0f;

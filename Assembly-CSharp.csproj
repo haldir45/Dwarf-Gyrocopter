@@ -45,13 +45,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GoblinShooting.cs" />
      <Compile Include="Assets\Scripts\BrimStoneGun.cs" />
      <Compile Include="Assets\Scripts\Bullet.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Destroyer.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\GoblinController.cs" />
+     <Compile Include="Assets\Scripts\GoblinShooting.cs" />
      <Compile Include="Assets\Scripts\GyrocopterBomb.cs" />
      <Compile Include="Assets\Scripts\GyrocopterController.cs" />
      <Compile Include="Assets\Scripts\Spear.cs" />
